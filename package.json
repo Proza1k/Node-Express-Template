@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "express-list-endpoints": "^6.0.0",
+    "mysql2": "^2.3.3",
     "sequelize": "^6.15.0"
   },
   "devDependencies": {
