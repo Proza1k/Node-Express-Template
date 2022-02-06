@@ -1,8 +1,13 @@
 {
-  "name": "backend-template",
+  "name": "node-express-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": {
+    "name": "Yaroslav Vdovin",
+    "email": "proza1k.vdovin@gmail.com",
+    "url": "https://github.com/Proza1k"
+  },
   "scripts": {
     "build": "rimraf dist && tsc",
     "start": "npm run build && node dist/server.js",
@@ -10,7 +15,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
