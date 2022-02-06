@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  backend:
+    build:
+      context: './'
+      dockerfile: Dockerfile
+      target: base
+    command: npm run start
+    env_file: .env
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    volumes:
+      - ./src:/home/node/app/src
+      - ./nodemon.json:/home/node/app/nodemon.json
