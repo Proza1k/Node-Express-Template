@@ -4,5 +4,5 @@
 
 - Node
 - Express
-- Mysql (database)
+- Mysql/PostgreSQL (database)
 - Docker
